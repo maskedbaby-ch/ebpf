@@ -104,6 +104,7 @@ int main(int argc, char **argv)
 	struct bootstrap_bpf *skel;
 	int err;
 
+	printf("start\n");
 	/* Parse command line arguments */
 	err = argp_parse(&argp, argc, argv, 0, NULL, NULL);
 	if (err)
